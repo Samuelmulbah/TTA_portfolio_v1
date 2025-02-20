@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio V1</title>
+    <style>
+    body{
+     background-color: black;
+     color: white;
+     margin: 0;
+     padding: 0;
+    }
+    header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 0px;
+    background-color: #7E74F1;
+}
+
+.navigation-bar ul li{
+    display: inline;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+     .container{
+      display: flex;
+      height:100vh ;
+      margin: auto;
+     }
+      .same-margin{
+        margin: auto;
+      }
+     .div-1{
+      width: 60%;
+      text-align: justify;
+      padding: 0px 100px 0px 30px;
+     }
+     .div-1 h1 span{
+      color: #7e74f1;
+      font-weight:bolder ;
+     }
+      .div-1 p{
+        color: gray;
+        font-size: 14px;
+      } 
+      
+     .div-2{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+     }
+     .div-2 img{
+      border-radius:8px;
+     }
+
+     #skills-section{
+      text-align: center  ;
+     }
+     .skills-container{
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+     }
+      .skill-card{
+        background-color: #ffffff;
+        color: #000;
+        width: 30%;
+        margin: auto 15px;
+        border-radius: 10px;
+        padding: 80px 5px 40px 4px;
+     }
+      .skill-card h2{
+        font-weight: lighter;
+      }
+      .skill-card p{
+        color: gray;
+      }
+
+      #Work-section{
+        text-align: center;
+      }
+       .Work-container{
+          display: flex;
+          justify-content: center;
+           color: gray;
+           height: 100vh;
+      }
+      
+      .Work-content{
+    border: 1px solid gray;
+    width: 30%;
+    margin: auto 30px;
+    border-radius: 5px;
+}
+
+ .Work-content img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ .Work-content p{
+    padding: 50px 20px 15px 12px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+}
+#testimonials{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.test-container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.test-content{
+    width: 50%;
+    margin: auto;
+}
+
+.test-words{
+    text-align: justify;
+    padding: 0px 15px;
+    margin-left: 35px;
+}
+
+.test-words p{
+    color: gray;
+    padding: 5px 0px;
+}
+
+.test-words button{
+    border: none;
+    border-radius: 3px;
+    padding: 13px 23px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #7E74F1;
+    cursor: pointer;
+}
+
+.test-img img{
+    border-radius: 50%;
+}
+        
+footer{
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <nav>
+          <ul>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#skills-section">Skill</a></li>
+            <li><a href="#Work-section">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul> 
+
+        </nav>
+      </div>
+    </header>
+
+    <section id="home-section">
+    <div class="container">
+      <div class="same-margin div-1">
+        <div class="content">
+           <h1>Samuel <span>Mulbah.</span></h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius assumenda, ea nihil aliquam nemo laborum dolores veniam repellat dolorum necessitatibus sit debitis, porro asperiores. Unde accusantium doloribus commodi eius.</p>
+          </div>
+      </div>
+      <div class="same-margin div-2">
+      <img src="./download.jpeg" height="340 width 300" alt="user img">
+    </div>
+    </div>
+    </section>
+
+    <section id="skills-section">
+     <h1>Specialized In</h1>
+     <div class="skills-container">
+
+      <div class="skill-card skill-1">
+        <h2>Skill-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur elit.
+           Ipsam natus amet ratione 
+          inventore, nesciunt, exercitationem dolores !</p>
+      </div>
+        <div class="skill-card skill-2">
+          <h2>Skill-2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur a elit. 
+            Fugiat vero consectetur saepe, placeat corrupti 
+            .</p>
+        </div>
+            <div class="skill-card skill-3">
+              <h2>Skill-3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur  elit. 
+                Explicabo aut, 
+                facere eaque et esse architecto recusand?</p>
+       </div>
+    
+      <div>
+      </div>
+    </section>
+
+     <section id="Work-section">
+       <h1>Worked on</h1>
+        <div class="Work-container">
+            <div class="Work-content Work-1">
+             <img src="./Work-img.jpg" width="334" height="250" alt="Previous Work-1">
+             <p>
+              Lorem ipsum dolor sit amet, consectetur .
+               Accusamus et aut laborum dolor ut impedi
+            </p>
+              <button>Continue Reading</button>
+          </div>
+          <div class="Work-content Work-2">
+           <img src="./Work2-img.jpg" width="334" height="250" alt="Previous Work-2">
+           <p>
+            Lorem ipsum dolor sit amet, consectetur .
+            Accusamus et aut laborum dolor ut impedit
+          </p>
+           <button>Continue Reading</button>
+          </div>
+          <div class="Work-content Work-3">
+            <img src="./Work3-img.jpg" width="334" height="250" alt="Previous Work-3">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur .
+              Accusamus et aut laborum dolor ut impedit? 
+            </p>
+             <button>Continue Reading</button>
+          </div>
+        </div>
+     </section>
+
+     <section id="testimonials">
+      <h1>Testimonials</h1>
+      <div class="test-container">
+          <div class="test-content test-words">
+              <h1>Samuel </h1>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatibus minima, non asperiores ab reiciendis aliquam 
+                obcaecati fuga sed qui odio nam voluptatem, 
+                repellendus quia ad natus, ducimus et unde quibusdam.</p>
+              <button>Read More ></button>
+          </div>
+          <div class="test-content test-img">
+              <img src="./IMG-20241230-WA0079.jpg" alt="Testimonial Image" width="300" height="400">
+          </div>
+      </div>
+
+  </section>
+
+  <footer>
+      <p>&copy; 2025 Samuel Mulbah Portfolio</p>
+  </footer>
+  </body>
+</html>   
