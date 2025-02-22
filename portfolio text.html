@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio V1</title>
+    <style>
+    body{
+     background-color: black;
+     color: white;
+     margin: 0;
+     padding: 0;
+    }
+    header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 0px;
+    background-color: #7E74F1;
+}
+
+.navigation-bar ul li{
+    display: inline;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+     .container{
+      display: flex;
+      height:100vh ;
+      margin: auto;
+     }
+      .same-margin{
+        margin: auto;
+      }
+     .div-1{
+      width: 60%;
+      text-align: justify;
+      padding: 0px 100px 0px 30px;
+     }
+     .div-1 h1 span{
+      color: #7e74f1;
+      font-weight:bolder ;
+     }
+      .div-1 p{
+        color: gray;
+        font-size: 14px;
+      } 
+      
+     .div-2{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+     }
+     .div-2 img{
+      border-radius:8px;
+     }
+
+     #skills-section{
+      text-align: center  ;
+     }
+     .skills-container{
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+     }
+      .skill-card{
+        background-color: #ffffff;
+        color: #000;
+        width: 30%;
+        margin: auto 15px;
+        border-radius: 10px;
+        padding: 80px 5px 40px 4px;
+     }
+      .skill-card h2{
+        font-weight: lighter;
+      }
+      .skill-card p{
+        color: gray;
+      }
+
+      #Work-section{
+        text-align: center;
+      }
+       .Work-container{
+          display: flex;
+          justify-content: center;
+           color: gray;
+           height: 100vh;
+      }
+      
+      .Work-content{
+    border: 1px solid gray;
+    width: 30%;
+    margin: auto 30px;
+    border-radius: 5px;
+}
+
+ .Work-content img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ .Work-content p{
+    padding: 50px 20px 15px 12px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+}
+#testimonials{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.test-container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.test-content{
+    width: 50%;
+    margin: auto;
+}
+
+.test-words{
+    text-align: justify;
+    padding: 0px 15px;
+    margin-left: 35px;
+}
+
+.test-words p{
+    color: gray;
+    padding: 5px 0px;
+}
+
+.test-words button{
+    border: none;
+    border-radius: 3px;
+    padding: 13px 23px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #7E74F1;
+    cursor: pointer;
+}
+
+.test-img img{
+    border-radius: 50%;
+}
+        
+footer{
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <nav>
+          <ul>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#skills-section">Skill</a></li>
+            <li><a href="#Work-section">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul> 
+
+        </nav>
+      </div>
+    </header>
+
+    <section id="home-section">
+    <div class="container">
+      <div class="same-margin div-1">
+        <div class="content">
+           <h1>Samuel <span>Mulbah.</span></h1>
+           <p>
+            Samuel Mulbah is on an exciting journey learning with Tech Tonic Africa,
+             a platform dedicated to equipping individuals with valuable tech skills.
+              By engaging in this learning experience, Samuel is gaining knowledge that can 
+              open doors to new opportunities in the tech industry.
+               Whether it's coding, data science, cybersecurity, or other digital skills,
+                his dedication to growth and innovation is commendable. Keep pushing forward,
+                 Samuel—tech has endless possibilities! 🚀💻
+           </p>
+          </div>
+      </div>
+      <div class="same-margin div-2">
+      <img src="./IMG-20241230-WA0079.jpg" height="340 width 300" alt="user img">
+    </div>
+    </div>
+    </section>
+
+    <section id="skills-section">
+     <h1>Specialized In</h1>
+     <div class="skills-container">
+
+      <div class="skill-card skill-1">
+        <h2>Skill-1</h2>
+        <p>My first skill in life might be his natural
+           ability to learn and adapt, as growth
+            and curiosity are key to success.</p>
+      </div>
+        <div class="skill-card skill-2">
+          <h2>Skill-2</h2>
+          <p>His second skill could be problem-solving,
+             which is essential in tech and everyday challenges.</p>
+        </div>
+            <div class="skill-card skill-3">
+              <h2>Skill-3</h2>
+              <p>His third skill (or thirtieth, depending on his journey)
+               might be technology expertise, as he is currently learning
+                with Tech Tonic Africa.
+               And also become a machine in life. </p>
+       </div>
+    
+      <div>
+      </div>
+    </section>
+
+     <section id="Work-section">
+       <h1>Worked on</h1>
+        <div class="Work-container">
+            <div class="Work-content Work-1">
+             <img src="./Work-img.jpg" width="334" height="250" alt="Previous Work-1">
+             <p>
+              Netflix is a popular streaming service that offers movies,
+               TV shows, and original content worldwide. Known for 
+               hits like Stranger Things and Squid Game, 
+               it has changed the way people watch entertainment. 🎬📺
+            </p>
+              <button>Continue Reading</button>
+          </div>
+          <div class="Work-content Work-2">
+           <img src="./Work2-img.jpg" width="334" height="250" alt="Previous Work-2">
+           <p>
+            Spotify is a leading music streaming platform that offers
+             millions of songs, podcasts, and playlists. 
+             It lets users discover and enjoy audio 
+             content anytime, anywhere. 🎶🎧
+          </p>
+           <button>Continue Reading</button>
+          </div>
+          <div class="Work-content Work-3">
+            <img src="./Work3-img.jpg" width="334" height="250" alt="Previous Work-3">
+            <p>
+              TikTok is a popular short-form video platform 
+              where users create, share, and discover trending content.
+               It's known for viral challenges, music, and creative expression. 📱🎵🔥
+            </p>
+             <button>Continue Reading</button>
+          </div>
+        </div>
+     </section>
+
+     <section id="testimonials">
+      <h1>Testimonials</h1>
+      <div class="test-container">
+          <div class="test-content test-words">
+              <h1>Samuel </h1>
+              <p>Samuel Mulbah is a dedicated and ambitious individual passionate about learning and growth.
+                 Currently expanding his knowledge with Tech Tonic Africa,
+                  he is developing valuable tech skills that will shape his future. 
+                  Samuel is a problem-solver, always eager to adapt and innovate in any challenge he faces.
+                   His journey is fueled by curiosity and determination, making him a lifelong learner.
+                    Whether in technology, creativity, or everyday life, he strives for excellence.
+                     With a bright future ahead, Samuel continues to build his skillset,
+                      embracing new opportunities and challenges that will define his success.
+                      His journey is just beginning! 🚀</p>
+              <button>Read More ></button>
+          </div>
+          <div class="test-content test-img">
+              <img src="./20241002_114232.jpg" alt="Testimonial Image" width="300" height="400">
+          </div>
+      </div>
+
+  </section>
+
+  <footer>
+      <p>&copy; 2025 Samuel Mulbah Portfolio</p>
+  </footer>
+  </body>
+</html>   
